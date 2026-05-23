@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-on-secondary-fixed-variant: #404252;
+  --color-outline: #8a8c9a;
+  --color-surface-container-low: #e5e7ed;
+  --color-secondary-fixed: #d8dae6;
+  --color-on-tertiary-container: #3b1f63;
+  --color-surface-container: #e2e4ea;
+  --color-tertiary: #7c3aed;
+  --color-primary-fixed: #e0e2ff;
+  --color-surface-container-highest: #d6d8de;
+  --color-primary: #6366f1;
+  --color-surface-bright: #edeef4;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #2e3040;
+  --color-error: #dc2626;
+  --color-tertiary-fixed-dim: #c4b5fd;
+  --color-surface: #e8eaf0;
+  --color-secondary-fixed-dim: #b8baca;
+  --color-primary-fixed-dim: #a5b4fc;
+  --color-secondary: #6c6e7e;
+  --color-primary-container: #818cf8;
+  --color-inverse-surface: #2e3040;
+  --color-tertiary-fixed: #ede9fe;
+  --color-on-secondary-fixed: #1a1b26;
+  --color-surface-container-high: #dcdee4;
+  --color-on-tertiary: #ffffff;
+  --color-outline-variant: #d0d2dc;
+  --color-on-primary-fixed-variant: #4338ca;
+  --color-error-container: #fee2e2;
+  --color-surface-tint: #6366f1;
+  --color-secondary-container: #d8dae6;
+  --color-on-background: #2e3040;
+  --color-background: #e8eaf0;
+  --color-surface-dim: #d4d6dc;
+  --color-on-error: #ffffff;
+  --color-inverse-primary: #a5b4fc;
+  --color-inverse-on-surface: #e8eaf0;
+  --color-on-tertiary-fixed-variant: #5b21b6;
+  --color-on-tertiary-fixed: #2e1065;
+  --color-on-primary-container: #e0e2ff;
+  --color-tertiary-container: #a78bfa;
+  --color-surface-container-lowest: #f0f2f8;
+  --color-on-error-container: #991b1b;
+  --color-on-secondary-container: #585a68;
+  --color-on-secondary: #ffffff;
+  --color-on-primary-fixed: #1e1b4b;
+  --color-on-surface-variant: #585a68;
+  --color-surface-variant: #dcdee4;
+
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
+
+  --radius-default: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.neomorph-raised {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(255, 255, 255, 0.6);
+}
+
+.neomorph-inset {
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.06), inset -4px -4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.glass-card {
+  background: rgba(232, 234, 240, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
