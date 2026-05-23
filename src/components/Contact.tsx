@@ -118,17 +118,22 @@ export default function Contact() {
         </div>
         {/* Map Placeholder */}
         <div className="mt-20 neomorph-raised rounded-3xl overflow-hidden h-[400px]">
-          <div className="w-full h-full bg-surface-container flex items-center justify-center relative">
-            <span className="material-symbols-outlined text-6xl text-on-surface-variant opacity-20">
-              map
-            </span>
-            <div className="absolute bottom-6 left-6 glass-card px-6 py-3 rounded-xl border-white/20">
-              <div className="font-bold">Main Office</div>
-              <div className="text-sm text-on-surface-variant">
+          <div className="w-full h-full relative">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109782.71036609772!2d76.61497818441244!3d30.698443002749904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee906da6f81f%3A0x512998f16ce508d8!2sSahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1779523522213!5m2!1sen!2sin"
+              className="w-full h-full border-0"
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Map"
+            ></iframe>
+
+            <div className="absolute bottom-6 left-6 glass-card px-6 py-3 rounded-xl border border-white/20 bg-white/20 backdrop-blur-md">
+              <div className="font-bold text-white">Main Office</div>
+              <div className="text-sm text-white/80">
                 Model Town, Ludhiana, Punjab
               </div>
             </div>
-            <div className="w-full h-full opacity-50 bg-[radial-gradient(#6366f1_1px,transparent_1px)] [background-size:20px_20px]" />
           </div>
         </div>
       </div>

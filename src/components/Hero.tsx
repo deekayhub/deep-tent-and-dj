@@ -11,7 +11,7 @@ export default function Hero() {
       </div>
       <div className="relative z-10 max-w-4xl text-center">
         <h1 className="text-5xl md:text-8xl font-display font-extrabold text-white tracking-tighter mb-6 drop-shadow-2xl">
-          Sonic India DJ
+          Deep Event & DJ
         </h1>
         <p className="text-xl md:text-2xl text-white/90 font-medium mb-10 max-w-2xl mx-auto drop-shadow-md">
           Professional DJ Sound for Every Celebration

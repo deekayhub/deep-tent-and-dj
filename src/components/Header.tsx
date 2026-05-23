@@ -3,7 +3,7 @@ export default function Header() {
     <header className="sticky top-0 w-full z-50 px-6 py-4">
       <nav className="flex justify-between items-center max-w-7xl mx-auto rounded-xl mt-4 bg-background/80 backdrop-blur-md shadow-[6px_6px_12px_rgba(0,0,0,0.08),-6px_-6px_12px_rgba(255,255,255,0.6)] px-8 py-4">
         <div className="text-2xl font-display font-semibold tracking-tighter text-on-surface">
-          Sonic India DJ
+          Deep Event & DJ
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a
